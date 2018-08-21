@@ -1,8 +1,8 @@
 - name: add repositories
   with_items: '{{ hetzner_repos }}'
   apt_repository:
-    repo: 'deb [arch=amd64] https://download.docker.com/linux/ubuntu {{ ansible_distribution_release }} stable'
-    filename: hetzner
+    repo: '{{ item }}'
+    filename: hetzner-mirror
     update_cache: yes
     state: present
   tags:
