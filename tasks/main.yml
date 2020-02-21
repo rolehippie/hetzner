@@ -1,9 +1,13 @@
-- name: add repositories
-  with_items: '{{ hetzner_repos }}'
+# Standards: 0.1
+---
+- name: Define apt repos
+  loop: '{{ hetzner_repos }}'
   apt_repository:
     repo: '{{ item }}'
-    filename: hetzner-mirror
-    update_cache: yes
+    filename: '{{ hetzner_filename }}'
+    update_cache: True
     state: present
   tags:
     - hetzner
+
+...
