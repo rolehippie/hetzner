@@ -1,4 +1,4 @@
-# Standards: 0.1
+# Standards: 1.2
 ---
 # @var hetzner_filename:description: Filename for the repo list
 hetzner_filename: hetzner-mirror
@@ -9,5 +9,8 @@ hetzner_repos:
   - 'deb http://mirror.hetzner.de/ubuntu/packages {{ ansible_distribution_release }}-updates main restricted universe multiverse'
   - 'deb http://mirror.hetzner.de/ubuntu/packages {{ ansible_distribution_release }}-backports main restricted universe multiverse'
   - 'deb http://mirror.hetzner.de/ubuntu/packages {{ ansible_distribution_release }}-security main restricted universe multiverse'
+
+# @var hetzner_update_cache:description: Update directly the cache
+hetzner_update_cache: True
 
 ...

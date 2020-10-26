@@ -1,11 +1,11 @@
-# Standards: 0.1
+# Standards: 1.2
 ---
 - name: Define apt repos
   loop: "{{ hetzner_repos }}"
   apt_repository:
     repo: "{{ item }}"
     filename: "{{ hetzner_filename }}"
-    update_cache: True
+    update_cache: "{{ hetzner_update_cache }}"
     state: present
   tags:
     - hetzner
