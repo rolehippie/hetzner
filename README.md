@@ -15,6 +15,7 @@ Building and improving this Ansible role have been sponsored by my employer **Pr
 * [Default Variables](#default-variables)
   * [hetzner_filename](#hetzner_filename)
   * [hetzner_repos](#hetzner_repos)
+  * [hetzner_update_cache](#hetzner_update_cache)
 * [Dependencies](#dependencies)
 * [License](#license)
 * [Author](#author)
@@ -49,6 +50,16 @@ hetzner_repos:
     main restricted universe multiverse
   - deb http://mirror.hetzner.de/ubuntu/packages {{ ansible_distribution_release }}-security
     main restricted universe multiverse
+```
+
+### hetzner_update_cache
+
+Update directly the cache
+
+#### Default value
+
+```YAML
+hetzner_update_cache: true
 ```
 
 ## Dependencies

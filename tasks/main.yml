@@ -5,7 +5,7 @@
   apt_repository:
     repo: "{{ item }}"
     filename: "{{ hetzner_filename }}"
-    update_cache: True
+    update_cache: "{{ hetzner_update_cache }}"
     state: present
   tags:
     - hetzner
