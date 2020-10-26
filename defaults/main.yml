@@ -1,4 +1,4 @@
-# Standards: 0.1
+# Standards: 1.2
 ---
 # @var hetzner_filename:description: Filename for the repo list
 hetzner_filename: hetzner-mirror
