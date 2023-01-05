@@ -5,6 +5,6 @@
   vars:
     hetzner_update_cache: False
   roles:
-    - role: hetzner
+    - role: rolehippie.hetzner
 
 ...
