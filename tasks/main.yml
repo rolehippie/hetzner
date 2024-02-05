@@ -1,4 +1,3 @@
-# Standards: 1.2
 ---
 - name: Define apt repos
   loop: "{{ hetzner_repos }}"
