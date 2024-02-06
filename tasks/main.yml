@@ -1,7 +1,7 @@
 ---
 - name: Define apt repos
   loop: "{{ hetzner_repos }}"
-  apt_repository:
+  ansible.builtin.apt_repository:
     repo: "{{ item }}"
     filename: "{{ hetzner_filename }}"
     update_cache: "{{ hetzner_update_cache }}"
