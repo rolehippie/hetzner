@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/rolehippie/hetzner/compare/v2.0.0...v2.1.0) (2025-11-17)
+
+
+### Features
+
+* apply new repo structure and update linting ([6488555](https://github.com/rolehippie/hetzner/commit/6488555e144498a370583c172b20861ab803fb0a))
+
 ## [2.0.0](https://github.com/rolehippie/hetzner/compare/v1.0.0...v2.0.0) (2024-02-12)
 
 
