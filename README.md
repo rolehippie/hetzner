@@ -51,14 +51,10 @@ List of Hetzner repo mirrors
 
 ```YAML
 hetzner_repos:
-  - deb http://mirror.hetzner.de/ubuntu/packages {{ ansible_distribution_release
-    }} main restricted universe multiverse
-  - deb http://mirror.hetzner.de/ubuntu/packages {{ ansible_distribution_release
-    }}-updates main restricted universe multiverse
-  - deb http://mirror.hetzner.de/ubuntu/packages {{ ansible_distribution_release
-    }}-backports main restricted universe multiverse
-  - deb http://mirror.hetzner.de/ubuntu/packages {{ ansible_distribution_release
-    }}-security main restricted universe multiverse
+  - deb http://mirror.hetzner.de/ubuntu/packages {{ ansible_distribution_release }} main restricted universe multiverse
+  - deb http://mirror.hetzner.de/ubuntu/packages {{ ansible_distribution_release }}-updates main restricted universe multiverse
+  - deb http://mirror.hetzner.de/ubuntu/packages {{ ansible_distribution_release }}-backports main restricted universe multiverse
+  - deb http://mirror.hetzner.de/ubuntu/packages {{ ansible_distribution_release }}-security main restricted universe multiverse
 ```
 
 ### hetzner_update_cache
