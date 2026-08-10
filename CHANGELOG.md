@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.0](https://github.com/rolehippie/hetzner/compare/v2.2.0...v2.3.0) (2026-08-10)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-doctor to v8.4.0 ([#52](https://github.com/rolehippie/hetzner/issues/52)) ([198d007](https://github.com/rolehippie/hetzner/commit/198d007b468ccb1f835cf44af27cdf425dfb1d62))
+* **patch:** update dependency python to v3.14.7 ([#50](https://github.com/rolehippie/hetzner/issues/50)) ([fba7084](https://github.com/rolehippie/hetzner/commit/fba70845f16d43428d5dad42f45c8b794a441d0d))
+
 ## [2.2.0](https://github.com/rolehippie/hetzner/compare/v2.1.0...v2.2.0) (2026-07-27)
 
 ## [2.1.0](https://github.com/rolehippie/hetzner/compare/v2.0.0...v2.1.0) (2025-11-17)
