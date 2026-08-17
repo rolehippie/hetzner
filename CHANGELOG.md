@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.4.0](https://github.com/rolehippie/hetzner/compare/v2.3.0...v2.4.0) (2026-08-17)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-lint to v26.8.0 ([#55](https://github.com/rolehippie/hetzner/issues/55)) ([9487b40](https://github.com/rolehippie/hetzner/commit/9487b406e5d921e3e8434d645ad364201bf7223b))
+* **minor:** update dependency pipx:molecule to v26.8.0 ([#56](https://github.com/rolehippie/hetzner/issues/56)) ([0410f75](https://github.com/rolehippie/hetzner/commit/0410f75269d4024527dce00e06f732b3d35f30b0))
+* **patch:** update dependency pipx:ansible-core to v2.21.3 ([#53](https://github.com/rolehippie/hetzner/issues/53)) ([9face50](https://github.com/rolehippie/hetzner/commit/9face50c934f19c0c33c482b8efff36197845af0))
+* **patch:** update dependency pre-commit to v4.6.2 ([#54](https://github.com/rolehippie/hetzner/issues/54)) ([82ad16f](https://github.com/rolehippie/hetzner/commit/82ad16fd9ef54525ac941a6ed974b1e48116a7ab))
+
 ## [2.3.0](https://github.com/rolehippie/hetzner/compare/v2.2.0...v2.3.0) (2026-08-10)
 
 ### Dependencies
