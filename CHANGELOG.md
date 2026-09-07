@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.0](https://github.com/rolehippie/hetzner/compare/v2.4.1...v2.5.0) (2026-09-07)
+
+### Features
+
+* add separate requirements for molecule run ([0b71b18](https://github.com/rolehippie/hetzner/commit/0b71b18a3e6b78237bc1fb321a7002c7cee94c12))
+* use new required facts as attributes ([0df2bac](https://github.com/rolehippie/hetzner/commit/0df2bac565a21af26ca00b004dfcb601ca8f57f0))
+
 ## [2.4.1](https://github.com/rolehippie/hetzner/compare/v2.4.0...v2.4.1) (2026-08-31)
 
 ### Dependencies
