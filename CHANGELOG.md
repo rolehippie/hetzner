@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.5.1](https://github.com/rolehippie/hetzner/compare/v2.5.0...v2.5.1) (2026-09-11)
+
+### Bugfixes
+
+* use correct quotes for ansible facts usage ([9cc0476](https://github.com/rolehippie/hetzner/commit/9cc0476d0cb10849f2a8a28f320d034f499d4a7b))
+
 ## [2.5.0](https://github.com/rolehippie/hetzner/compare/v2.4.1...v2.5.0) (2026-09-07)
 
 ### Features
